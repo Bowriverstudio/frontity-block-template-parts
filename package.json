@@ -1,0 +1,16 @@
+{
+	"name": "frontity-block-template-parts",
+	"version": "0.1.0",
+	"description": "Frontity Block Template Parts",
+	"homepage": "https://frontity.org",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://community.frontity.org"
+	},
+	"dependencies": {},
+	"scripts": {
+		"test:ci": "../../node_modules/.bin/jest --ci --coverage",
+		"test": "../../node_modules/.bin/jest --watch",
+		"test:inspect": "node --inspect ../../node_modules/jest/bin/jest.js --watch --no-cache --runInBand"
+	}
+}
